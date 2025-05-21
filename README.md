@@ -14,6 +14,7 @@ Afterwards, drop your emojis into `%appdata%/VRCEmojiSwitcher/Emojis` with each 
 
 ### Name formatting
 Emoji filenames can either adhere to a number of two standards.
+If an image does not adhere to either the static or animated standards, it will be uploaded with the default "bounce" emoji animation.
 #### Static emojis
 These are emojis that are not animated. They are a still image.
 The naming scheme goes as follows: `<number>_static_<animationtype>`
