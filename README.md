@@ -2,15 +2,21 @@
 This VRChat API program allows you to switch between profiles of emojis, effectively giving users the ability to expand beyond the limit of 9 emojis.
 
 ## How it works
-VRCEmojiSwitcher swapps between "profiles" of emojis saved to your PC, using the API to make calls to remove existing emojis and upload the next set. Then it loops and awaits user input to await the next cycle of swapping profiles.
-Everything is self-contained in the appdata folder.
+VRCEmojiSwitcher swaps between "profiles" of emojis saved to your PC, using the API to make calls to remove existing emojis and upload the next set. Then it loops and awaits user input to await the next cycle of swapping profiles.
+All user data is self-contained in the appdata folder.
+All application data is contained within the executable file available on the Releases page.
+
+## Demo
+![Demo-GIF](https://github.com/user-attachments/assets/adf4dde7-1b4e-46c9-92e9-fc6678ae215b)
 
 ## Usage
-Download the latest executable binary from the Release page.
-Either run the executable, or open a terminal (cmd, powershell, wt) and run the executable.
+Download the latest executable binary from the Releases page.
+Either run the executable, or open a terminal (cmd, powershell, wt) and run the executable from there. The latter will provide more verbose logging if you run into issues.
 This will require an accept of the EULA, and a login of the user to store a cookie for further usage.
 It will then backup all of your emojis to `%appdata%/VRCEmojiSwitcher/Backup`
-Afterwards, drop your emojis into `%appdata%/VRCEmojiSwitcher/Emojis` with each subfolder containing one of your 9 emojis.
+Afterwards, drop your emojis into `%appdata%/VRCEmojiSwitcher/Emojis` with each subfolder containing your 9 emojis.
+- `%appdata%/VRCEmojiSwitcher/Emojis/1/` contains 9 image files.
+- `%appdata%/VRCEmojiSwitcher/Emojis/2/` contains 9 more image files.
 
 ### Name formatting
 Emoji filenames can either adhere to a number of two standards.
