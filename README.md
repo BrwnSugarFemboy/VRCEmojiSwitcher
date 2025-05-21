@@ -33,3 +33,6 @@ The naming scheme goes as follows: `<number>_anim_<framecount>_<framerate>_<anim
 2. The framecount is the number of frames on your tilesheet. This can range from 1-64
 3. The  framerate is how quickly your emoji is to be played. If you're not sure, you can modify it ingame in the VRC+ Menu later on.
 4. The animationtype is a supported [emoji animation type](https://wiki.vrchat.com/wiki/Emojis#Custom_Emojis) from vrchat.
+
+## Support
+Need help? Want to reach out to the devs? Share emojis? Feel free to join the [Discord](https://emojiswitcher.discord.bussy.wtf)!
