@@ -2,6 +2,8 @@
 This VRChat API program allows you to switch between profiles of emojis, effectively giving users the ability to expand beyond the limit of 9 emojis.
 
 ## How it works
+VRCEmojiSwitcher swapps between "profiles" of emojis saved to your PC, using the API to make calls to remove existing emojis and upload the next set. Then it loops and awaits user input to await the next cycle of swapping profiles.
+Everything is self-contained in the appdata folder.
 
 ## Usage
 Download the latest executable binary from the Release page.
