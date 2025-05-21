@@ -1,2 +1,26 @@
 # VRCEmojiSwitcher
 This VRChat API program allows you to switch between profiles of emojis, effectively giving users the ability to expand beyond the limit of 9 emojis.
+
+## How it works
+
+## Usage
+Download the latest executable binary from the Release page.
+Either run the executable, or open a terminal (cmd, powershell, wt) and run the executable.
+This will require an accept of the EULA, and a login of the user to store a cookie for further usage.
+It will then backup all of your emojis to `%appdata%/VRCEmojiSwitcher/Backup`
+Afterwards, drop your emojis into `%appdata%/VRCEmojiSwitcher/Emojis` with each subfolder containing one of your 9 emojis.
+
+### Name formatting
+Emoji filenames can either adhere to a number of two standards.
+#### Static emojis
+These are emojis that are not animated. They are a still image.
+The naming scheme goes as follows: `<number>_static_<animationtype>`
+1. The number is 0-8. 0 appears furthest down the emojij wheel; 8 appears nearest (moving clockwise from the return option).
+2. The animationtype is a supported [emoji animation type](https://wiki.vrchat.com/wiki/Emojis#Custom_Emojis) from vrchat.
+#### Animated Emojis
+These are emojis that are tilesheets. GIF file format is not currently supported.
+The naming scheme goes as follows: `<number>_anim_<framecount>_<framerate>_animationtypes>`
+1. The number is 0-8. 0 appears furthest down the emojij wheel; 8 appears nearest (moving clockwise from the return option).
+2. The framecount is the number of frames on your tilesheet. This can range from 1-64
+3. The  framerate is how quickly your emoji is to be played. If you're not sure, you can modify it ingame in the VRC+ Menu later on.
+4. The animationtype is a supported [emoji animation type](https://wiki.vrchat.com/wiki/Emojis#Custom_Emojis) from vrchat.
