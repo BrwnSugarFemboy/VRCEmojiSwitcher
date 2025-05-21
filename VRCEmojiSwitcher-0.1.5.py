@@ -108,7 +108,7 @@ def Authenticate():
 		)
 		LogWriter("Authenticating with credentials.")
 	with vrchatapi.ApiClient(configuration) as api_client:
-		api_client.user_agent = "VRChatEmojiSwitcher / 0.1.0 femboy@bussy.wtf"
+		api_client.user_agent = "VRChatEmojiSwitcher / 0.1.5 femboy@bussy.wtf"
 		auth_api = authentication_api.AuthenticationApi(api_client)
 		try:
 			#pull a cookie (maybe)
