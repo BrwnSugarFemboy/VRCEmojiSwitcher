@@ -22,7 +22,7 @@ The naming scheme goes as follows: `<number>_static_<animationtype>`
 2. The animationtype is a supported [emoji animation type](https://wiki.vrchat.com/wiki/Emojis#Custom_Emojis) from vrchat.
 #### Animated Emojis
 These are emojis that are tilesheets. GIF file format is not currently supported.
-The naming scheme goes as follows: `<number>_anim_<framecount>_<framerate>_animationtypes>`
+The naming scheme goes as follows: `<number>_anim_<framecount>_<framerate>_<animationtype>`
 1. The number is 0-8. 0 appears furthest down the emojij wheel; 8 appears nearest (moving clockwise from the return option).
 2. The framecount is the number of frames on your tilesheet. This can range from 1-64
 3. The  framerate is how quickly your emoji is to be played. If you're not sure, you can modify it ingame in the VRC+ Menu later on.
