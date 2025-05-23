@@ -35,4 +35,4 @@ The naming scheme goes as follows: `<number>_anim_<framecount>_<framerate>_<anim
 4. The animationtype is a supported [emoji animation type](https://wiki.vrchat.com/wiki/Emojis#Custom_Emojis) from vrchat.
 
 ## Support
-Need help? Want to reach out to the devs? Share emojis? Feel free to join the [Discord](https://emojiswitcher.discord.bussy.wtf)!
+Need help? Want to reach out to the devs? Share emojis? Feel free to join the [Discord](https://emojiswitcherdiscord.bussy.wtf)!
