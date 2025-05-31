@@ -7,7 +7,8 @@ All user data is self-contained in the appdata folder.
 All application data is contained within the executable file available on the Releases page.
 
 ## Demo
-![Demo-GIF](https://github.com/user-attachments/assets/adf4dde7-1b4e-46c9-92e9-fc6678ae215b)
+![Demo-GIF](https://github.com/user-attachments/assets/aa96c5bf-eb00-4296-b9d6-1972239d4584)
+
 
 ## Usage
 Download the latest executable binary from the Releases page.
